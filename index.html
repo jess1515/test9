@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="intro-loader">
+    <div class="logo-text">Jessica's Portfolio</div>
+
+    <div class="loading-bar">
+        <div class="bar"></div>
+    </div>
+
+    <p>Loading experience...</p>
+</div>
+
+
+<!-- Contact Blob -->
+
+<div class="contact-blob">
+
+    <div class="blob-image">
+        <img src="assets/3.png">
+    </div>
+
+    <div class="blob-content">
+
+        <h3>Let's Build</h3>
+        <p>BSIT Student • Web App Developer • UI/UX Designer </p>
+
+        <a href="#" onclick="toggleBlobForm(); return false;">
+            Reach Out
+        </a>
+
+        <div class="blob-form">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email" value="jessicabernalflores028@gmail.com">            <textarea placeholder="Message"></textarea>
+
+            <button onclick="sendBlobMessage()">Send</button>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- Background -->
+
+<div class="floating-image">
+    <img src="assets/me.png">
+</div>
+
+<div class="container">
+
+<h1 class="title">Create Build Design</h1>
+
+<!-- Page Cover -->
+
+<div class="book">
+
+<div class="page cover">
+<div class="page-content">
+<span class="myport">Hi there!</span>
+<h1 class="name">I'm Jessica</h1>
+<p class="name1">Take a look at my projects and skills</p>
+</div>
+</div>
+
+<!-- Page 1 -->
+<div class="page">
+<div class="page-content">
+<h2>About Me</h2>
+<div class="profile-card">
+
+    <h3 class="card-title">Personal History</h3>
+
+    <p class="intro">
+        A BSIT Student in Davao del Norte State College who is eager to learn and grow in the world of tech.
+    </p>
+
+    <div class="info-grid">
+
+        <div class="info-item">
+            <span class="label">Full Name</span>
+            <span class="value">Jessica Bernal Flores</span>
+        </div>
+
+        <div class="info-item">
+            <span class="label">Birthdate</span>
+            <span class="value">August 15, 2003</span>
+        </div>
+
+        <div class="info-item">
+            <span class="label">Address</span>
+            <span class="value">Barangay Kauswagan, Panabo City</span>
+        </div>
+
+        <div class="info-item">
+            <span class="label">Interests</span>
+            <span class="value">I love expressing myself through dance, music, and poetry, and I enjoy watching horror and dark films.</span>
+        </div>
+
+        <div class="info-item">
+            <span class="label">Email</span>
+            <span class="value">jessicabernalflores028@gmail.com</span>
+        </div>
+
+        <div class="info-item">
+            <span class="label">Mobile</span>
+            <span class="value">09489350426</span>
+        </div>
+
+    </div>
+
+</div>
+<button class="back-btn">Back</button>
+</div>
+</div>
+
+<!-- Page 2 -->
+<div class="page">
+    <div class="page-content">
+        <h2>Education</h2>
+        <div class="profile-card">
+
+            <h3 class="card-title">Educational Background</h3>
+
+            <div class="educinfo-grid">
+
+                <div class="educinfo-item">
+                    <span class="educ-label">College</span>
+                    <span class="educ-value">Bachelor of Science in Information Technology
+Davao del Norte State College (2022–Present)</span>
+                </div>
+
+                <div class="educinfo-item">
+                    <span class="educ-label">Senior High</span>
+                    <span class="educ-value">Kauswagan NHS (2020–2022)</span>
+                </div>
+
+                <div class="educinfo-item">
+                    <span class="educ-label">Junior High</span>
+                    <span class="educ-value">Kauswagan NHS (2016–2020)</span>
+                </div>
+
+                <div class="educinfo-item">
+                    <span class="educ-label">Elementary</span>
+                    <span class="educ-value">Teofanis G. Gerona Sr. ES (2014–2016)</span>
+                </div>
+
+                <div class="educinfo-item">
+    <span class="educ-label">Primary</span>
+    <span class="educ-value">
+        Kalayaan ES (2011–2014)<br>
+        Rizal ES (2010–2011)
+    </span>
+</div>
+            </div>
+
+            <h3 class="educcard-title" style="margin-top:50px;">Work Experience</h3>
+
+            <div class="info-grid">
+
+                <div class="educinfo-item">
+                    <span class="educ-label">Tutor</span>
+                    <span class="educ-value">Private Tutor (Elementary-Level Students)</span>
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="back-btn">Back</button>
+
+    </div>
+</div>
+
+<!-- Page 3 -->
+<div class="page">
+    <div class="page-content">
+        <h2>Skills</h2>
+        <div class="profile-card skills-card1">
+
+
+            <h3 class="card-title1">Technical & Creative Skills</h3>
+
+            <div class="skills-scroll1">
+
+                <div class="info-item1">
+                    <span class="label1">Documentation and Data Entry</span>
+                    <span class="value1">
+                        <br>Already completed a project in our quantitative research and other courses that have a documentation assignment and data entry. And still working with our capstone
+                    </span> <br>
+                    <div class="rating1"><span class="stars1">★★★★☆</span><span>4 / 5</span></div>
+                </div>
+
+                <div class="info-item1">
+                    <span class="label1">UI/UX Design & Prototyping (Figma)</span>
+                    <span class="value1"> <br>Created and prototyped mobile app and website interfaces.</span> <br>
+                    <div class="rating1"><span class="stars1">★★★★☆</span><span>4 / 5</span></div>
+                </div>
+
+                <div class="info-item1">
+                    <span class="label1">Creative/Multimedia Design</span>
+                    <span class="value1"> <br>Designed and edited images and videos for academic projects.</span> <br>
+                    <div class="rating1"><span class="stars1">★★★★☆</span><span>4 / 5</span></div>
+                </div>
+
+                <div class="info-item1">
+                    <span class="label1">Basic Project Management</span>
+                    <span class="value1"> <br>Still learning to organize and lead projects.</span> <br>
+                    <div class="rating1"><span class="stars1">★★★☆☆</span><span>3 / 5</span></div>
+                </div>
+
+                <div class="info-item1">
+                    <span class="label1">Creative and Innovative Design Thinking</span>
+                    <span class="value1"> <br>Exploring new ways to solve problems and create ideas.</span>
+                    <div class="rating1"><span class="stars1">★★☆☆☆</span><span>2 / 5</span></div>
+                </div>
+
+                <div class="info-item1">
+                    <span class="label1">Effective Coordination and Teamwork</span>
+                    <span class="value1"> <br>Improving collaboration and communication in group work.</span>
+                    <div class="rating1"><span class="stars1">★★★☆☆</span><span>3 / 5</span></div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="back-btn">Back</button>
+
+    </div>
+</div>
+
+
+<!-- Page 4 -->
+<div class="page page-projects">
+  <div class="page-content">
+    <h2 class="page-title">Projects</h2>
+
+    <button class="back-btn" onclick="flipBack()">Back</button>
+
+    <div class="project-card active-card" id="main-projects">
+
+      <div class="project-menu">
+
+        <div class="project-btn" onclick="showProjectCard('website', event)">
+          <img src="assets/17th.png">
+        </div>
+        <div class="project-title">Website & Mobile App</div>
+
+        <div class="project-btn" onclick="showProjectCard('design', event)">
+          <img src="assets/22th.png">
+        </div>
+        <div class="project-title">Graphic Design</div>
+
+        <div class="project-btn" onclick="showProjectCard('video', event)">
+          <img src="assets/23th.png">
+        </div>
+        <div class="project-title">Video Production</div>
+
+      </div>
+
+    </div>
+
+<!-- Website -->
+    <div class="project-card hidden-card" id="website">
+
+      <div class="back-circle" onclick="swipeBack(event)">←</div>
+
+      <div class="project-scroll">
+        <div class="project-item">
+          <img src="assets/18th.png">
+          <h3>Portfolio Mobile Application</h3>
+          <p>A personal portfolio mobile application designed to display my projects, technical skills, and background in an interactive and user-friendly way.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/1st.png">
+          <h3>Registration Form</h3>
+          <p>This project is a Registration Form activity during my first year, designed to manage user registration details through UI interface.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/2nd.png">
+          <h3>Google Site</h3>
+          <p>We made this website for our Final Project. This will help you discover your passion through activities that excite you. It contains resources to explore the things that you love to do.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/3rd.png">
+          <h3>PDIC CRUD Project</h3>
+          <p>After cloning the entire PDIC website, I created and added a CRUD that allows users to create, read, update, and delete records efficiently.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/9th.png">
+          <h3>Student Information Database</h3>
+          <p>We created a database to organize student records, allowing easy management and access to grades and personal information.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/16th.png">
+          <h3>Portfolio Website 1</h3>
+          <p>A simple website that introduces myself, highlighting my background, skills, and personal information.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/15th.png">
+          <h3>Portfolio Website 2</h3>
+          <p>A visually designed website that displays my projects and works in an organized and interactive layout.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/14th.png">
+          <h3>Simple Login Form Page</h3>
+          <p>A simple login interface that allows users to enter credentials and access the system securely.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/6th.png">
+          <h3>Factorial JS Lab Activity</h3>
+          <p>This JavaScript Lab Activity that I created calculates factorials, helping users gain hands-on experience with loops and functions.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+<!-- Design -->
+    <div class="project-card hidden-card" id="design">
+
+      <div class="back-circle" onclick="swipeBack(event)">←</div>
+
+      <div class="project-scroll">
+
+        <div class="project-item">
+          <img src="assets/SIMS.png">
+          <h3>SIMS User Manual</h3>
+          <p>A user manual created during our OJT under Nehemiah Corporation, designed to help users understand and navigate the SIMS system with ease.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/TaskFlow.png">
+          <h3>TaskFlow User Manual</h3>
+          <p>A guide developed during our OJT under Nehemiah Corporation that explains how to use TaskFlow for managing tasks and workflows in an organized way.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/Pickle Pro World.png">
+          <h3>Pickle Pro World User Manual</h3>
+          <p>A user manual made during our OJT under Nehemiah Corporation that helps users navigate Pickle Pro World and understand its main features.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/7th.png">
+          <h3>Space Act Leaflet</h3>
+          <p>To provide clear information on ensuring safe and inclusive spaces, I created a leaflet about the Safe Space Act.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/12th-1.jpg">
+          <h3>VAWC Awareness Brochure</h3>
+          <p>An informational brochure designed to raise awareness about Violence Against Women and Children (VAWC), its impact, and available support services.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/20th.png">
+          <h3>GreenGlam Brochure</h3>
+          <p>A brochure design for our concept brand GreenGlam, showcasing our idea of an eco-friendly beauty brand focused on natural products and sustainable living.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/21th.png">
+          <h3>GreenGlam Poster</h3>
+          <p>A poster for our GreenGlam concept brand, showcasing eco-friendly beauty and sustainable design.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/10th.jpg">
+          <h3>The Myth of Maria Makiling Poster</h3>
+          <p>A visually designed poster inspired by the myth of Maria Makiling, highlighting her mysterious beauty and cultural significance in Philippine folklore.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+<!-- Video -->
+    <div class="project-card hidden-card" id="video">
+
+      <div class="back-circle" onclick="swipeBack(event)">←</div>
+
+      <div class="project-scroll">
+
+        <div class="project-item">
+          <img src="assets/4th.png">
+          <h3>Horror Film: The Rent</h3>
+          <p>This film focuses on students renting a secluded house to film a horror movie while experiencing strange happenings, unaware of a real-life horror connected to the house's troubled past.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/5th.png">
+          <h3>Short Film: Pagpangita'g Kolor sa Linear Programming</h3>
+          <p>This film focuses on students renting a secluded house to film a horror movie while experiencing strange happenings, unaware of a real-life horror connected to the house's troubled past.</p>
+        </div>
+
+        <div class="project-item">
+          <img src="assets/8th.png">
+          <h3>Short Film: VAWC</h3>
+          <p>This film focuses on Violence Against Women and Children (VAWC), aiming to raise awareness and encourage action against such violence.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Page 5 -->
+<div class="page page-certificates">
+  <div class="page-content cert-wrap">
+    <h2 class="page-title">Certificates</h2>
+    <div class="cert-card" onclick="event.stopPropagation()">
+
+      <div class="cert-tabs">
+        <button class="cert-tab active" onclick="showCert('dnsc', event)">DNSC Activities</button>
+        <button class="cert-tab" onclick="showCert('ojt', event)">OJT</button>
+        <button class="cert-tab" onclick="showCert('external', event)">External</button>
+        <button class="cert-tab" onclick="showCert('cisco', event)">Cisco</button>
+
+      </div>
+
+      <div class="cert-image-box">
+        <img id="certImage" src="assets/dnsc1.jpg">
+      </div>
+
+      <div class="cert-arrows">
+        <div class="cert-arrow" onclick="prevCert(event)">←</div>
+        <div class="cert-arrow" onclick="nextCert(event)">→</div>
+      </div>
+
+    </div>
+
+    <button class="back-btn" onclick="flipBack(event)">Back</button>
+
+  </div>
+</div>
+
+
+<!-- End screen -->
+<div class="end-screen">
+  <h2>End of Portfolio</h2>
+  <p>Thank you for visiting</p>
+  <button class="restart-btn">Back to Cover</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
